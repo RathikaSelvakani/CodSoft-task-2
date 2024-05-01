@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head{
+    width: 50%;
+    padding: 10%;
+    font-size: larger;
+    
+}
+h1{
+    color:blue;
+     margin-bottom: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.head h2,h3{
+    font-size: xx-large;
+    margin-bottom: 5px;
+}
+.sign button{
+    width: 80px;
+    height: 30px;
+} 
+.sign{
+ display: flex;
+ justify-content: end;
+ margin-right: 20px;
+}   
+   
+
+
+.about{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.benefit{
+    width:50%;
+    margin-top: 20%;
+    margin-left: 8%;
+    font-size: larger;
+}
+.benefit p{
+    font-size:medium;
+}
+.benefit i{
+    font-size: larger;
+    margin-top: 20px;
+    padding: 5px;
+    color: orangered;
+}
+.enroll{
+    width: 50%;
+}
+.enroll-form{
+    width: 65%;
+    height: 500px;
+    background-color:darkslategrey;
+    margin-top: 25%;
+    margin-left: 50px;
+}
+.enroll-form h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+   
+}
+input,select{
+    display: flex;
+    width:80%;
+    margin-left: 35px;
+    height: 40px;
+    margin-top: 20px;
+    border-color: darkslategrey;
+    border-radius: 5px;
+    border-color: whitesmoke;
+}
+button{
+    color: white;
+    background-color:orangered;
+    text-align: center;
+    width:80%;
+    height: 40px;
+    margin-top: 30px;
+    margin-left:35px ;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    
+}
+
+.video-page{
+    width:100%;
+    height: 110vh;
+    background-color:rgb(198, 230, 243);
+}
+.video h2{
+    text-align: center;
+    padding-top: 40px;
+  
+}
+video{
+    margin-left: 22%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.mentors-page{
+    width:100%;
+    height: 100vh;
+    
+}
+.mentors-page h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.staff{
+    width:50%;
+   
+}
+.staff-part{
+    display: flex;
+}
+.box{
+    width:90%;
+    margin-left: 30px;
+    border:2px solid whitesmoke;
+    margin-top: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+.box h3,h4{
+    text-align: center;
+    color: black;
+    
+}
+.clr{
+    background-color: gainsboro;
+}
+
+img{
+    width:150px;
+    height: 100px;
+   border-radius: 10px;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    background-color:gainsboro;
+}
+.img p{
+  margin-top: 20px;
+  text-align: center;
+}
+i{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.features-page{
+    width:100%;
+    height: 100vh;
+    background-color: rgb(163, 230, 230);
+   
+}
+
+.features{
+    width:26%;
+    height: 400px;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.features-page h2{
+    text-align: center;
+    padding-top:10px ;
+}
+
+.feature-img{
+    width:96%;
+    height: 200px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.content p{
+  margin-left: 10px;
+  margin-right: 3px;
+}
+.feature{
+    display: flex;
+}
+
+.about-page{
+    width: 100%;
+    height: 100vh;
+}
+.about-page h2{
+    text-align: center;
+    padding-top:30px ;
+}
+.about-inside{
+    width:50%;
+
+}
+.about-image{
+    width:70% ;
+    height: 300px;
+    
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.about-content{
+    width: 50%;
+    margin-top: 130px;
+    text-align: center;
+    margin-right: 20px;
+   
+}
+.about-part{
+    display: flex;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: darkslategrey;
+    margin-top: 120px;
+    display: flex;
+   
+}
+.footer-title{
+    width: 50%;
+   
+}
+.footer-links{
+    width: 50%;
+}
+.footer-title h1{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+.footer-links i{
+    color:white;
+    font-size: large;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+i:hover{
+    font-weight: bold;
+    cursor: pointer;
+  color: orangered;
+}
+.email p{
+    color: white;
+    margin-top: 25px;
+    margin-right: 200px;
+}
+
+
+
+
+
+
